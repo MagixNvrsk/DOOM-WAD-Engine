@@ -51,4 +51,6 @@ export const gfire = w => {if (NET.on && NET.role === 'guest') {netSend({t: 'f',
 export const aBAM = () => pmOf(PL0).an;
 export const DM2 = ['RUNNIN', 'STALKS', 'COUNTD', 'BETWEE', 'DOOM', 'THE_DA', 'SHAWN', 'DDTBLU', 'IN_CIT', 'DEAD', 'STLKS2', 'THEDA2', 'DOOM2', 'DDTBL2', 'RUNNI2', 'DEAD2', 'STLKS3', 'ROMERO', 'SHAWN2', 'MESSAG', 'COUNT2', 'DDTBL3', 'AMPIE', 'THEDA3', 'ADRIAN', 'MESSG2', 'ROMER2', 'TENSE', 'SHAWN3', 'OPENIN', 'EVIL', 'ULTIMA'];
 export const MULT = [.5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 12, 12, 15, 15], WAVE = ['sine', 'triangle', 'sine', 'sawtooth'];
-export const SND = {POSS: {sight: ['POSIT1', 'POSIT2', 'POSIT3'], atk: 'PI
+
+// реэкспорт второго блока констант (импортирующие ссылаются на data.js)
+export * from './data2.js';
